@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Advanced3
@@ -10,6 +11,7 @@ namespace Advanced3
     public class User
     {
         public Guid Id { get; set; }
+        //[JsonPropertyName("Hello")]
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Age { get; set; }

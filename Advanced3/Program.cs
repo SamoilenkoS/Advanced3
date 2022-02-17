@@ -45,7 +45,8 @@ namespace Advanced3
 
         static void Main(string[] args)
         {
-
+            SerializeAndWrite();
+            ReadAndDeserialize();
         }
     }
 }
